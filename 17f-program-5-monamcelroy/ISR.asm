@@ -27,7 +27,8 @@ Skip	AND R2, R2, #0
 	BRz Store
 	BRnzp Notrite
 Store	STI R0, Z
-Notrite	HALT
+Notrite	RTI
+	HALT
 	
 	       
 Z	.FILL x2600

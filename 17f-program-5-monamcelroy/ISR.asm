@@ -5,7 +5,7 @@
 ; Checks for a valid RNA symbol and places it at x2600
 .ORIG x2500
 Start	LDI R1, X
-	BRzp Start
+	BRzp Notrite
 	LDI R0, Y
 	BRnzp Skip
 Skip	AND R2, R2, #0
